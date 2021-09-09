@@ -50,7 +50,7 @@ nlu:
     - no way
     - not really
 
-- intent: Holiday_list
+- intent: faq/Holiday_list
   examples: |
     - How many holidays are available for associates in India?
     - What is the total number of holidays?
@@ -58,11 +58,14 @@ nlu:
     - How many holidays do we have ?
     - How many Holidays does Abzooba have?
     - Show the list of holidays.
+    - Where will I get Abzooba Holiday Calendar for 2021?
+    - Do we have holliday on 
+    - Which is next  Holiday / Optional Holiday? 
     - Tell me about holidas
     - holidays
     - give me the holiday list
 
-- intent: FLholiday_process
+- intent: faq/FLholiday_process
   examples: |
     - What is the process to avail Floating Holiday?
     - How to take a FL? 
@@ -71,7 +74,7 @@ nlu:
     - How to avail floating holiday?
     - how to take a Floating Leave?
 
-- intent: holiday_clinetSite
+- intent: faq/holiday_clinetSite
   examples: |
     - Which holiday calendar is applicable for associates working at client site?
     - What do I do if Abzooba has a holiday but the client does not?

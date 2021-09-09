@@ -2,24 +2,3 @@ version: "2.0"
 
 stories:
 
-- story: User wants holiday list
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: Holiday_list
-  - action: utter_holidaylist
-
-- story: Floating holiday avail process
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: FLholiday_process
-  - action: utter_Fholiday_process
- 
-
-- story: holiday confusion at client site
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: holiday_clinetSite
-  - action: utter_client_holiday

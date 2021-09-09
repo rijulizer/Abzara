@@ -5,10 +5,8 @@ intents:
   - goodbye
   - affirm
   - deny
-  - Holiday_list
-  - FLholiday_process
-  - holiday_clinetSite
   - bot_challenge
+  - faq
 
 responses:
   utter_greet:
@@ -23,13 +21,13 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_holidaylist:
-  - text: "Here is the list of all holidays!! LINK"
+  utter_faq/Holiday_list:
+  - text: "Here is the list of all holidays!! \n https://abzooba.sharepoint.com/sites/abzhome "
 
-  utter_Fholiday_process:
+  utter_faq/FLholiday_process:
   - text: "Please apply on the HRMS system with prior approval from the Project Manager and Mentor marking RMG."
 
-  utter_client_holiday:
+  utter_faq/holiday_clinetSite:
   - text: "Client holiday calendar will be application for associates working at client site."
 
 
