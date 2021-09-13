@@ -16,3 +16,4 @@ rules:
   steps:
   - intent: faq
   - action: utter_faq
+  - action: utter_did_that_help

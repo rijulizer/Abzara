@@ -12,6 +12,14 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
 
+  utter_nice_great:
+  - text: "Nice !!"
+  - text: "Amazing !!"
+  - text: "Great !!"
+
+  utter_how_can_help:
+  - text: "How can I help you?"
+
   utter_did_that_help:
   - text: "Did that help you?"
   
@@ -30,10 +38,62 @@ responses:
   utter_faq/holiday_clinetSite:
   - text: "Client holiday calendar will be application for associates working at client site."
 
+  utter_faq/resign_leave_eligible:
+  - text: "Associates are not encouraged to take leave in notice period. You can still refer to the leave policy handbook for more details: Leave Policy Handbook PDF
+          For more info mail to human_resources@abzooba.com"
+  
+  utter_faq/resign_notification:
+  - text: "After getting formal approval from Leadership, HR-Ops will communicate the LWD to resigned associate if the resignation is confirmed. (preferably within 30 days from the date of resignation)"
+
+  utter_faq/resign_project:
+  - text: "Ideally, you are expected to complete the project hand over, knowledge transfer at least one day prior to actual LWD."
+
+  utter_faq/resign_clearance_checklist:
+  - text: "Due to the pandemic situation HR Ops will get the following clearance from the respective stakeholder-
+          \n Project Manager
+          \n IT
+          \n Admin
+          \n RMG
+          \n Finance
+          \n Compliance
+          \n Social Media Undertaking ( Mandatory)"
+
+  utter_faq/abzooba_alumni:
+  - text: "Please notify HR Ops representative during exit interview or write to us at alumni@abzooba.com so that we can add you to our Alumni Network."
+  
+  utter_faq/resign_final_settlement:
+  - text: "On successful completion of asset handover, the full and final settlement will be disbursed along with the upcoming pay cycle (On the first day of the next month)"
+  
+  utter_faq/resign_post_queries:
+  - text: "Please write to finance team at finance@abzooba.com For any query related to full and final settlement, Form-16, Payslip, Sodexo
+          \n for query related to Leave, Medical Insurance, statutory compliance like EPF, Gratuity etc. and any other concern, contact at human_resources@abzooba.com "
+        
+  utter_faq/resign_gratuity_payment:
+  - text: "Gratuity is only applicable to those who have worked 5 years or more in the organisation (without any break-in service)."
+
+  utter_faq/resign_PF_related:
+  - text: "Employees Provident Fund - You can find the UAN no in Payslip. The provident fund amount can be withdrawn after 2 months from date of release if you are not continuing the account further. The date of exit will be updated from Abzooba within this period of time."
+
+  utter_faq/resign_benefits_related:
+  - text: "Our group health insurance coverage will be applicable until LWD. The prorated premium will be refunded for those who have added parents/in-laws & does not have any claim for the current year."
+
+  utter_faq/attendance_fill_timesheet:
+  - text: "Please refer to the appropriate RMG coordinator who will generate the needed access to the internal timesheets:
+          \nSandeep Shelke: BD&C
+          \nMona Tandon: AA"
+
+  utter_faq/attendance_wrong_submission:
+  - text: "Please email the following teams to correct the error:
+          \n Human_resources@abzooba.com
+          \n Joanita.Sontakke@abzooba.com"
+
+  utter_faq/working_hours:
+  - text: "Usually in India its 9.30 A.M. to 6.00 P.M. From Monday to Friday. However, it may change based on business / project need." 
+
 
 
 
 
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 20
   carry_over_slots_to_new_session: true

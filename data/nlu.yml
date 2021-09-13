@@ -80,6 +80,138 @@ nlu:
     - What do I do if Abzooba has a holiday but the client does not?
     - If I am in client site which holiday is applicable?
 
+- intent: faq/resign_leave_eligible
+  examples: |
+    - How many leaves can I avail during my notice period? 
+    - Can I take Leaves during my notice period? 
+    - What if I take leave after my resgination?
+    - Leave policy in notice period?
+    - Is it possible to take leave after I resign?
+    - Leave in notice period?
+
+- intent: faq/resign_notification
+  examples: |
+    - When will I get formal notification on LWD?
+    - What is my LWD?
+    - Information regarding last working day?
+    - Details about Last working day
+    - Till when am I supposed to work in Abzooba after resigning?
+    - Last working day notification
+
+- intent: faq/resign_project
+  examples: |
+    - Project handover information?
+    - KT expectations after resignation / during notice period?
+    - Last date for project handover?
+    - Knowledge transfer after resgination?
+    - What are my responsibilites after resigning
+
+- intent: faq/resign_clearance_checklist
+  examples: |
+    - NOC procedure
+    - Whats the process of Abzooba clearance checklist?
+    - Whom should I contact to get NOC after resignation?
+    - Whom should I handover company assets after I resign?
+    - Asset handover
+    - Abzooba Clearance checklist
+
+- intent: faq/abzooba_alumni
+  examples: |
+    - How to join the Abzooba alumni network?
+    - Details about Abzooba alumni network?
+    - Abzooba Alumni
+    - Alumnus Network of Abzooba
+    - Procedure to get added to Abzooba Alumni network?
+
+- intent: faq/resign_final_settlement
+  examples: |
+    - How much time does it take to get the the full and final settlement?
+    - Full and final settlement?
+    - Tentative data of final settlement amount
+    - When will I get the final settlement amount?
+    - When will I get the final payment?
+    - Payment of due amount?
+
+- intent: faq/resign_post_queries
+  examples: |
+    - Where can I get finance related info after resignation?
+    - Who is the point of contact from Abzooba after regination?
+    - Whom to contact to get form-16/payslips after resigning?
+    - Post Exit queries
+    - To whom associate should connect for post exit queries? 
+
+- intent: faq/resign_gratuity_payment
+  examples: |
+    - Gratuity Payment
+    - Who is applicable to get gratuity payment?
+    - Am I elligible for gratuity payment?
+    - What is the criteria for Gratuity?
+    - Should I expect Gratuity bonus?
+    - what is the gratuity policy?
+
+- intent: faq/resign_PF_related
+  examples: |
+    - How to withdraw my PF amount?
+    - Where can I find my UAN number?
+    - How long it takes to withdraw my PF amount after resignation?
+    - Provident Fund?
+    - PF withdrawal
+    - Profident Fund withdrawal
+
+- intent: faq/resign_benefits_related
+  examples: |
+    - What will happen to my Insurance after resignation?
+    - Will my insurance benefits continue after resignation from Abzooba?
+    - Medical Insurance after resination?
+    - Parental medical benefits post exit
+    - generic guidelines in case parental insurance post Exit? 
+    - generic guidelines in case parental insurance after resignation? 
+    - generic guidelines in case in-laws insurance post Exit? 
+
+- intent: faq/attendance_fill_timesheet
+  examples: |
+    - Where to fill Abzooba timesheets?
+    - Who is the person who can tell me about Abzooba timesheets? 
+    - How to fill Abzooba timesheets? 
+    - Who is the person I should contact regarding filling Abzooba timesheets?
+    - Tell me the person I should contact for Abzooba timesheet details.
+    - Tell me the where to fill Abzooba timesheets.
+
+- intent: faq/attendance_wrong_submission
+  examples: |
+    - I have enetered wrong hours in timesheet what to do next?
+    - Whom i should contact as I have mentioned wrong hours in timesheet?
+    - How to put correct time in timesheet as I have entered wrong timings?
+    - Tell me what to do as I have entered wrong hours in timesheet.
+    - Redo timesheet.
+
+- intent: faq/working_hours
+  examples: |
+    - What are the standard timings of Abzooba? 
+    - What are office timings of Abzooba? 
+    - How much time should an asssociate spend in office? 
+    - How many hours should an associate work in office? 
+    - Tell me the office timings.
+    - Tell me the working time of Abzooba. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 - intent: bot_challenge
   examples: |
