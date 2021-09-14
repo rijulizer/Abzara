@@ -22,6 +22,8 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
+  - text: "Did it solve your query?"
+  - text: "What else can I do for you?"
   
   utter_goodbye:
   - text: "Bye"
