@@ -84,11 +84,38 @@ responses:
 
   utter_faq/attendance_wrong_submission:
   - text: "Please email the following teams to correct the error:
-          \n Human_resources@abzooba.com
-          \n Joanita.Sontakke@abzooba.com"
+          \nHuman_resources@abzooba.com
+          \nJoanita.Sontakke@abzooba.com"
 
   utter_faq/working_hours:
   - text: "Usually in India its 9.30 A.M. to 6.00 P.M. From Monday to Friday. However, it may change based on business / project need." 
+
+  utter_faq/leave_annual_calender:
+  - text: "The Leave Calendar is from 1 Jan to 31 Dec."
+   
+  utter_faq/leave_PL:
+  - text: "15. But for new joiners' leaves are allotted on pro rata basis considering date of joining. At max 7 of such leaves are carried forward to the next year."
+    
+  utter_faq/leave_CL:
+  - text: "10. But for new joiners' leaves are allotted on pro rata basis considering date of joining. Such leaves are not carried forward to the next year."
+    
+  utter_faq/leave_SL:
+  - text: "3. Sick Leaves are carried forward and maximum accumulation is 56." 
+  
+  utter_faq/leave_eligible_consultant:
+  - text: "Consultants on direct contract are eligible for 1 day leave in a month, 12 days leave in a year on pro rata basis depending on date of joining. Such leaves can't be carried forward to the next year."
+    
+  utter_faq/leave_continuty:
+  - text: "15 days of continuous leaves can be availed. However, total 3 days of continuous Casual Leaves are permissible."
+  
+  utter_faq/leave_advanced:
+  - text: "Associates are eligible for advance Privilege Leaves based on the following conditions:
+        \n1. Marriage of the associate applying for leave
+        \n2. Serious illness of the associate (supported with Doctor’s prescription / certificate)
+        \n3. Death in the immediate family
+        \n4. Major natural calamity leading to loss of property."
+  
+  
 
 
 

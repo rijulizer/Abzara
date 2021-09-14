@@ -1,6 +1,22 @@
 version: "2.0"
 
 nlu:
+- synonym: PF
+  examples: |
+    - Profident Fund
+
+- synonym: SL
+  examples: |
+    - Sick Leave
+
+- synonym: CL
+  examples: |
+    - Casual Leave
+
+- synonym: PL
+  examples: |
+    - Priviledge Leave
+
 - intent: greet
   examples: |
     - hey
@@ -193,6 +209,82 @@ nlu:
     - How many hours should an associate work in office? 
     - Tell me the office timings.
     - Tell me the working time of Abzooba. 
+
+- intent: faq/leave_annual_calender
+  examples: |
+    - Whats is the leave calender of Abzooba?
+    - What is the leave calendar year followed here?
+    - Leave calendar followed in Abzooba yearly 
+    - What is the yearly leave calender followed in Abzooba? 
+    - Annual leave calender in Abzooba 
+
+- intent: faq/leave_PL
+  examples: |
+    - How many Priviledge Leave an associates are eligible during the year
+    - Priviledge Leave? 
+    - How many Priviledge leaves are applicable for an associates?
+    - Does PL carry forwarded? 
+    - How many PL  are carry forwarded?
+    - Details related to 
+
+- intent: faq/leave_CL
+  examples: |
+    - How many Casual Leave an associates are eligible during the year?
+    - How many CL max we can apply? 
+    - Casual Leave? 
+    - How many Casual leaves are applicable for an associates?
+    - Are CLs carry forwarded? 
+    - How many CLs are carry forwarded?
+
+- intent: faq/leave_SL
+  examples: |
+    - How many Sick Leaves are associates eligible during the year? 
+    - Tell me about Sick Leaves 
+    - How many Sick leaves are applicable for an associates?
+    - Are SLs carry forwarded? 
+    - How many SLs are carry forwarded?
+
+- intent: faq/leave_eligible_consultant
+  examples: |
+    - How many leaves are Abzooba consultants eligible for?
+    - How many leaves are applicable to Abzooba consultants?
+    - Leaves applicable for Abzooba consultant 
+    - How many Leaves can I take as a consultant?
+    - If I am a consultant can I take leaves? 
+
+- intent: faq/leave_continuty
+  examples: |
+    - How many leaves an associate can avail at once? 
+    - How many conntinuous leave an associate can avail
+    - What is the maximum number of leaves I can avail?
+    - For how many days an I can take continuous leaves? 
+    - How many CL leaves an associate can avail at once? 
+    - What is the maximum number of days an associate can avail as CL?
+    - For how many days an associate can take continuous CL leaves? 
+    - Number of Continuous leaves applicable for an associate
+    - Number of Continuous casual leaves applicable for an associate. 
+
+- intent: faq/leave_advanced
+  examples: |
+    - How to apply for an advanced leave?
+    - What is the eligibility to apply for advance leaves?
+    - What types of leave can be considered as part of advance leave? 
+    - What are the different types of conditions that an associate can apply for advance leave? 
+    - What are the advance leaves
+    - Who can I apply for advance leave?
+    - Is advance leave applicable? 
+    - When can associates be eligible for advance leaves? 
+    - What are the advance leave policy rules?
+
+
+
+
+
+ 
+
+
+
+
 
 
 
