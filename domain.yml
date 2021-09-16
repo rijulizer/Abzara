@@ -17,6 +17,11 @@ responses:
         \nAttendance and Time Sheet
         \nReferral 
         \nResignation"
+  
+  utter_out_of_scope:
+  - text: Sorry, I can't handle that request.
+  - text: Sorry! not sure, I am new and still training.
+  - text: Sorry! I dont know the answer to this.
 
   utter_nice_great:
   - text: "Nice !!"
@@ -28,16 +33,17 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
-  - text: "Did it solve your query?"
-  - text: "Hope that helped you, right?"
     buttons:
     - title: "Yes! it helped."
-    payload: "/affirm"
+      payload: "/affirm"
     - title: "No! it did not help."
-    payload: "/deny"
+      payload: "/deny"
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_please_rephrase:
+  - text: "Sorry! Can you please rephrase your question?"
 
   utter_chitchat/Who_are_you:
   - text: "I am Abzara, the HR chatbot!! How can I help you?" 
@@ -46,7 +52,7 @@ responses:
   - text: "I am a bot !! Created by Riju and his team 'Sparkling Pandas' "
 
   utter_faq/Holiday_list:
-  - text: "Here is the list of all holidays!! \n https://abzooba.sharepoint.com/sites/abzhome "
+  - text: "Here is the list of all holidays!! \n[HolidayList](https://abzooba.sharepoint.com/sites/abzhome/Shared%20Documents/Employee%20Success/India/Abzooba%20Annual%20Holiday%20List_2021_India.pdf?OR=Teams-HL&CT=1631794926071)"
 
   utter_faq/FLholiday_process:
   - text: "Please apply on the HRMS system with prior approval from the Project Manager and Mentor marking RMG."
@@ -125,13 +131,16 @@ responses:
   - text: "15 days of continuous leaves can be availed. However, total 3 days of continuous Casual Leaves are permissible."
   
   utter_faq/leave_advanced:
-  - text: "Associates are eligible for advance Privilege Leaves based on the following conditions:
+  - text: "Associates are eligible for advance Privilege Leaves based on the following conditions-
         \n1. Marriage of the associate applying for leave
         \n2. Serious illness of the associate (supported with Doctor’s prescription / certificate)
         \n3. Death in the immediate family
         \n4. Major natural calamity leading to loss of property."
   
-  
+  utter_faq/Abzooba_wiki:
+  - text: "Please refer to our website - https://abzooba.com/"
+
+
 
 
 

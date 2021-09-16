@@ -295,3 +295,21 @@ nlu:
     - Is advance leave applicable? 
     - When can associates be eligible for advance leaves? 
     - What are the advance leave policy rules?
+
+- intent: faq/Abzooba_wiki
+  examples: |
+    - Tell me about Abzooba?
+    - tell me something about abzooba
+    - What do you know about our company?
+    - Tell me more about abzooba.
+
+- intent: out_of_scope
+  examples: |
+    - Who is the new CEO?
+    - Who is the new VP?
+    - What is 2 + 2?
+    - What is espresso?
+    - Who is KK?
+    - Who owns abzooba now?
+    - Can I expect a salary hike?
+    - Can I be the next CEO?
