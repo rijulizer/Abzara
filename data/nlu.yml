@@ -21,14 +21,16 @@ nlu:
   examples: |
     - hey
     - hello
-    - hi
+    - hi Abzara
     - hello there
-    - good morning
+    - good morning Abzara
     - good evening
-    - moin
+    - Abzara
+    - Abzara are you there?
     - hey there
     - let's go
     - hey dude
+    - hello madam
     - goodmorning
     - goodevening
     - good afternoon
@@ -36,7 +38,7 @@ nlu:
 - intent: goodbye
   examples: |
     - good afternoon
-    - cu
+    - Thankx,thats it.
     - good by
     - cee you later
     - good night
@@ -66,6 +68,24 @@ nlu:
     - no way
     - not really
 
+- intent: chitchat/Who_are_you
+  examples: |
+    - Who are you?
+    - What is your name?
+    - What should I call you?
+    - What Can I call you?
+    - Do you have a name?
+
+- intent: chitchat/bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Who created you?
+    - who made you?
+    - Are you alive?
+    
 - intent: faq/Holiday_list
   examples: |
     - How many holidays are available for associates in India?
@@ -275,39 +295,3 @@ nlu:
     - Is advance leave applicable? 
     - When can associates be eligible for advance leaves? 
     - What are the advance leave policy rules?
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?

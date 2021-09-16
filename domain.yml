@@ -6,11 +6,17 @@ intents:
   - affirm
   - deny
   - bot_challenge
+  - chitchat
   - faq
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! I am Abzara, the HR chat-bot. I can help you with queries related to-
+        \nHolidays
+        \nLeaves
+        \nAttendance and Time Sheet
+        \nReferral 
+        \nResignation"
 
   utter_nice_great:
   - text: "Nice !!"
@@ -23,13 +29,21 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
   - text: "Did it solve your query?"
-  - text: "What else can I do for you?"
-  
+  - text: "Hope that helped you, right?"
+    buttons:
+    - title: "Yes! it helped."
+    payload: "/affirm"
+    - title: "No! it did not help."
+    payload: "/deny"
+
   utter_goodbye:
   - text: "Bye"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_chitchat/Who_are_you:
+  - text: "I am Abzara, the HR chatbot!! How can I help you?" 
+  
+  utter_chitchat/bot_challenge:
+  - text: "I am a bot !! Created by Riju and his team 'Sparkling Pandas' "
 
   utter_faq/Holiday_list:
   - text: "Here is the list of all holidays!! \n https://abzooba.sharepoint.com/sites/abzhome "
