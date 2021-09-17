@@ -17,6 +17,13 @@ nlu:
   examples: |
     - Priviledge Leave
 
+- synonym: Resume
+  examples: |
+    - CV
+    - profile
+    - resume
+    - curriculum vitae
+
 - intent: greet
   examples: |
     - hey
@@ -193,6 +200,7 @@ nlu:
     - Provident Fund?
     - PF withdrawal
     - Profident Fund withdrawal
+    - tell me about profident fund
 
 - intent: faq/resign_benefits_related
   examples: |
@@ -296,12 +304,27 @@ nlu:
     - When can associates be eligible for advance leaves? 
     - What are the advance leave policy rules?
 
+- intent: faq/Refer_how
+  examples: |
+    - How to refer someone?
+    - How associates should send referral to recruitment team?
+    - Where to put cv for referral?
+    - how to give referrral to someone new?
+    - Where to put resume for referral? 
+
+- intent: faq/Refer_bonus_eligible
+  examples: |
+    - Am I eligible referral bonus?
+    - referral bonus?
+    - When will I get the referral bonus? 
+
 - intent: faq/Abzooba_wiki
   examples: |
     - Tell me about Abzooba?
     - tell me something about abzooba
     - What do you know about our company?
     - Tell me more about abzooba.
+    - abzooba
 
 - intent: out_of_scope
   examples: |
