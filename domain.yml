@@ -31,6 +31,11 @@ responses:
   utter_how_can_help:
   - text: "How can I help you?"
 
+  utter_handoff_next:
+  - text: "Right now we dont have a Human Handoff or Ticket Creation system in place
+           \nThey will be included in v.2
+           \nTill then - Patience is a Virtue"
+
   utter_did_that_help:
   - text: "Did that help you?"
     buttons:
@@ -141,7 +146,7 @@ responses:
   - text: "All referral requests should be made through the incident management platform -JIRA by raising tickets, as a response to the job postings available on Abzooba website, or mailers sent by the Recruitment team. While making requests for referral, it is necessary to attach the resume of the candidate being referred."
 
   utter_faq/Refer_bonus_eligible:
-  - text: "For any doubt related referral bonus, please visit page 13 of the associate handbook.
+  - text: "For any doubt related to referral bonus, please visit page 13 of the associate handbook.
         \n[Handbook](https://abzooba.sharepoint.com/sites/abzhome/Shared%20Documents/Employee%20Success/India/Associate%20Handbook%20Ver%203.00.pdf)"
 
   utter_faq/Abzooba_wiki:

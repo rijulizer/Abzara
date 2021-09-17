@@ -15,6 +15,13 @@ stories:
   - action: utter_nice_great
   - action: utter_how_can_help
 
+- story: feedback_negative_path
+  steps:
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_handoff_next
+  - action: utter_please_rephrase
+
 
 
 
