@@ -53,7 +53,7 @@ https://<domain-name>/webhooks/botframework/webhook
 
 Abzara is very easy to install and deploy in a Docker container.
 
-By default, the Docker will expose port 8080, so change this within the
+By default, the Docker will expose port 5005, so change this within the
 Dockerfile if necessary. When ready, simply use the Dockerfile to
 build the image.
 
@@ -65,11 +65,12 @@ docker build -t abzara:img_1 .
 This will create the image and pull in the necessary dependencies.
 
 Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+your host. In this example, we simply map port 5005 of the host to
+port 5005 of the Docker (or whatever port was exposed in the Dockerfile):
+Here is the comand to run teh docker container..
 
 ```sh
-run command: docker run -it -p 8080:8080 abzara:img_1 rasa run --credentials ./credentials.yml  --enable-api --auth-token XYZ123 --model ./models --endpoints ./endpoints.yml --cors "*"
+docker run -it -p 5005:5005 abzara:img_1 run --model models --credential credentials.yml --enable-api --cors "*"
 
 ```
 
