@@ -38,11 +38,6 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
-    buttons:
-    - title: "Yes! it helped."
-      payload: "/affirm"
-    - title: "No! it did not help."
-      payload: "/deny"
 
   utter_goodbye:
   - text: "Bye"
